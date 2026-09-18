@@ -18,6 +18,7 @@ import java.util.Map;
 @RequestMapping("/api/camel/transfer")
 public class FileTransferController {
 
+    
     private final ProducerTemplate producerTemplate;
     private final SimpleFileTransferRoute fileTransferRoute;
 
